@@ -1,0 +1,11 @@
+
+Configuration: headdim=128, nheads=32, batch_size=8, causal=True
+SeqLen     | Base Latency    | Base TFLOPs     | Avg Latency     | Avg TFLOPs      | Speedup   
+-----------------------------------------------------------------------------------------------
+4096       |         8.65 ms |       127.13 |         6.54 ms |       168.09 |      1.32x
+8192       |        36.15 ms |       121.68 |        22.20 ms |       198.07 |      1.63x
+16384      |       139.17 ms |       126.41 |        79.97 ms |       219.98 |      1.74x
+32768      |       566.88 ms |       124.13 |       312.43 ms |       225.23 |      1.81x
+65536      |      2347.16 ms |       119.92 |      1220.08 ms |       230.70 |      1.92x
+
+Results saved to ./excel/streaming/hdim128_nheads32_bts8_sink64_local256_fwd.xlsx
