@@ -1,6 +1,7 @@
 # MICS6001V: LLM Serving on GPUs — Efficient Sparse Attention
 
 复现并优化 [Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention)
+优化后Prototype代码 [Repo](https://github.com/henrylin46/MICS6001V-BSA) [Result](https://github.com/henrylin46/MICS6001V-BSA/blob/main/BSR_BENCHMARK_RESULTS.md)
 
 ## 环境
 - GPU: NVIDIA RTX 6000 Ada Generation (49GB × 4)
